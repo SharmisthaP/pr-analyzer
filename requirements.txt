@@ -1,0 +1,23 @@
+# Core dependencies
+anthropic==0.39.0           # Claude API client
+pygithub==2.5.0             # GitHub API wrapper
+gitpython==3.1.43           # Git operations
+fastapi==0.115.0            # Web framework for webhook server
+uvicorn==0.32.0             # ASGI server
+pydantic==2.10.0            # Data validation
+python-dotenv==1.0.1        # Environment variables
+
+# Code analysis
+tree-sitter==0.23.2         # AST parsing
+radon==6.0.1                # Code complexity metrics
+
+# Utilities
+requests==2.32.3
+python-multipart==0.0.12
+aiofiles==24.1.0
+
+# Development tools
+pytest==8.3.3
+black==24.10.0              # Code formatter
+ruff==0.7.4                 # Linter
+ipython==8.29.0             # Better REPL
